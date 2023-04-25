@@ -1,6 +1,6 @@
-var food = 30;
-var tipPercentage = .10;
+var billTotal = 30;
+var tipPercentage = 10;
 
-var foodTotal = food * (1 + .10);
+var tipAmount = billTotal * (1 + (tipPercentage/100));
 
-console.log("The tip on a $",food, "food bill is $",foodTotal);
+console.log('A', tipPercentage, '% tip on a $' ,billTotal, 'bill is $',tipAmount);
